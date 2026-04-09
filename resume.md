@@ -16,7 +16,7 @@ permalink: /resume/
 </div>
 
 <iframe 
-  src="{{ '/assets/files/Hanisha_Vemireddy_Resume.pdf' | relative_url }}" 
+  src="{{ '/assets/files/HanishaVemireddy-Resume.pdf' | relative_url }}" 
   width="100%" 
   height="900px" 
   style="border: none; border-radius: 8px;">
