@@ -12,12 +12,25 @@ body {
   line-height: 1.7;
 }
 
-</-- Projects Page -->
+/* Projects Page */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1.2rem;
   margin-top: 1.5rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.project-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .project-card {
