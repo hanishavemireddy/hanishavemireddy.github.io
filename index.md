@@ -5,7 +5,7 @@ layout: home
 <div class="hero">
 
   <div class="hero-text">
-    <h1>Hanisha</h1>
+    <h1>Hanisha Vemireddy</h1>
     <p class="hero-sub">
       Data Scientist | Statistics | Machine Learning | Decision Science
     </p>
