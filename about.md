@@ -22,9 +22,9 @@ More recently, I’ve been interested in problems around experimentation, causal
 
 ## Beyond Work
 
-- 🥾 I enjoy hiking and exploring new trails  
-- 🎬 I watch a lot of movies  
-- 🍜 I love trying new foods  
+- 🎬 I watch a lot of movies, addicted to Indian (specifically telugu) movies
+- 🍜 I love trying new foods, Gimbap and Banh Mi (👀)  
 - 📚 I occasionally read, mostly as an excuse to sit in a cafe and relax  
-- 🎧 Lately into K-pop  
-- 📺 Recently finished Naruto and One Piece  
+- 🥒 Lately into pickleball  
+- 📺 Recent obsession with Anime, proud to say that I've finished watching Naruto and One Piece
+- 🥾 I enjoy hiking and exploring new trails   
