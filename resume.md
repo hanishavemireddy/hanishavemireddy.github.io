@@ -6,11 +6,11 @@ permalink: /resume/
 
 ## Resume
 <div style="margin-bottom: 1rem;">
-  <a href="{{ '/assets/files/Hanisha_Vemireddy_Resume.pdf' | relative_url }}" target="_blank">
+  <a href="{{ '/assets/files/HanishaVemireddy-Resume.pdf' | relative_url }}" target="_blank">
     View Resume
   </a>
   &nbsp;|&nbsp;
-  <a href="{{ '/assets/files/Hanisha_Vemireddy_Resume.pdf' | relative_url }}" download>
+  <a href="{{ '/assets/files/HanishaVemireddy-Resume.pdf' | relative_url }}" download>
     Download PDF
   </a>
 </div>
