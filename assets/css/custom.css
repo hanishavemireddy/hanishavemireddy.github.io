@@ -2,6 +2,19 @@ body {
   background-color: #121212;
 }
 
+.page-shell {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2rem 24px 3rem;
+}
+
+.page-card {
+  background: #fbfbfc;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  padding: 2.25rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
 
 .intro-card {
   padding: 1.4rem 1.5rem;
