@@ -13,13 +13,13 @@ layout: home
   </p>
 
 <div style="display: flex; gap: 20px; align-items: center; margin-top: 18px;">
-  <a href="https://github.com/yourusername" target="_blank">
+  <a href="https://github.com/hanishavemireddy" target="_blank">
     <img src="{{ '/assets/icons/github.svg' | relative_url }}" width="22">
   </a>
-  <a href="https://linkedin.com/in/yourprofile" target="_blank">
+  <a href="https://linkedin.com/in/hanisha-vemireddy" target="_blank">
     <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}" width="22">
   </a>
-  <a href="mailto:your@email.com">
+  <a href="mailto:hanishavemireddy@gmail.com">
     <img src="{{ '/assets/icons/email.svg' | relative_url }}" width="22">
   </a>
 </div>
