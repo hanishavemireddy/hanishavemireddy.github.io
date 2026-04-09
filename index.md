@@ -12,17 +12,17 @@ layout: home
     Lately, I’m either watching something new reality tv show, or trying to finish another long anime series, or playing pickleball.  
   </p>
 
-  <div style="display: flex; gap: 14px; align-items: center; margin-top: 18px;">
-    <a href="https://github.com/yourusername" target="_blank">
-      <img src="/assets/icons/github.svg" width="22">
-    </a>
-    <a href="https://linkedin.com/in/yourprofile" target="_blank">
-      <img src="/assets/icons/linkedin.svg" width="22">
-    </a>
-    <a href="mailto:your@email.com">
-      <img src="/assets/icons/email.svg" width="22">
-    </a>
-  </div>
+<div style="display: flex; gap: 20px; align-items: center; margin-top: 18px;">
+  <a href="https://github.com/yourusername" target="_blank">
+    <img src="{{ '/assets/icons/github.svg' | relative_url }}" width="22">
+  </a>
+  <a href="https://linkedin.com/in/yourprofile" target="_blank">
+    <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}" width="22">
+  </a>
+  <a href="mailto:your@email.com">
+    <img src="{{ '/assets/icons/email.svg' | relative_url }}" width="22">
+  </a>
+</div>
 
 </div>
 
