@@ -25,6 +25,91 @@ body {
   line-height: 1.7;
 }
 
+/* overall page */
+body {
+  background: #f3f4f6;
+  color: #222;
+}
+
+/* main content area */
+main,
+.page-content,
+.wrapper,
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* add breathing room */
+main {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+/* page sections */
+article,
+.post,
+.page,
+.content {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+}
+
+/* headings */
+h1, h2, h3 {
+  line-height: 1.25;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* body text */
+p, li {
+  line-height: 1.75;
+}
+
+/* links */
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* nav area */
+header,
+.site-header {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+/* lists */
+ul {
+  padding-left: 1.2rem;
+}
+
+/* mobile */
+@media (max-width: 640px) {
+  article,
+  .post,
+  .page,
+  .content {
+    padding: 1.25rem;
+    border-radius: 14px;
+  }
+
+  main,
+  .page-content,
+  .wrapper,
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+
 /* Projects Page */
 .project-grid {
   display: grid;
