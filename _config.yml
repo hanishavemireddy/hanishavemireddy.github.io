@@ -1,0 +1,14 @@
+title: Hanisha Vemireddy
+description: Data Scientist | Statistics | Machine Learning | Decision Science
+baseurl: ""
+url: "https://hanishavemireddy.github.io"
+
+remote_theme: abhinavs/moonwalk
+
+plugins:
+  - jekyll-remote-theme
+
+header_pages:
+  - about.md
+  - projects.md
+  - resume.md
