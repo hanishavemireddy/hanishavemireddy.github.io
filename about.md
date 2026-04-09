@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 Hi, I’m Hanisha. I’m a Data Scientist with around 9 years of experience across academia and industry, working at the intersection of statistics, machine learning, and real-world decision making.
