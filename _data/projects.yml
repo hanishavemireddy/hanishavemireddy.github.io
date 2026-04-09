@@ -1,8 +1,14 @@
 - title: Forecasting and Process Monitoring
   description: Worked with multivariate sensor data and modeling workflows to identify process deviations early and support proactive decisions.
+  tech: Python, Time Series, Monitoring
+  link: /projects/forecasting/
+  repo: https://github.com/yourusername/forecasting-project
 
 - title: Experimental Design and Analysis
   description: Designed and analyzed experiments, accounted for confounding and blocking factors, and translated results into practical recommendations.
+  tech: Statistics, DOE, Hypothesis Testing
+  repo: https://github.com/yourusername/experiment-design
 
 - title: Predictive Modeling
   description: Built statistical and machine learning workflows in Python to support real-world scientific and operational decisions.
+  tech: Python, ML, Modeling
