@@ -9,27 +9,19 @@ layout: home
   </p>
 
   <p>
-    Lately, I’m either watching something new reality tv show, or trying to finish another long anime series, or playing pickleball.  
+    Lately, I’m either watching a new reality TV show, trying to finish another long anime series, or playing pickleball.
   </p>
 
-<div style="display: flex; gap: 20px; align-items: center; margin-top: 18px;">
-  <a href="https://github.com/hanishavemireddy" target="_blank">
-    <img src="{{ '/assets/icons/github.svg' | relative_url }}" width="22">
-  </a>
-  <a href="https://linkedin.com/in/hanisha-vemireddy" target="_blank">
-    <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}" width="22">
-  </a>
-  <a href="mailto:hanishavemireddy@gmail.com">
-    <img src="{{ '/assets/icons/email.svg' | relative_url }}" width="22">
-  </a>
-</div>
+  <div style="display: flex; gap: 20px; align-items: center; margin-top: 18px;">
+    <a href="https://github.com/hanishavemireddy" target="_blank">
+      <img src="{{ '/assets/icons/github.svg' | relative_url }}" width="22" alt="GitHub">
+    </a>
+    <a href="https://linkedin.com/in/hanisha-vemireddy" target="_blank">
+      <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}" width="22" alt="LinkedIn">
+    </a>
+    <a href="mailto:hanishavemireddy@gmail.com">
+      <img src="{{ '/assets/icons/email.svg' | relative_url }}" width="22" alt="Email">
+    </a>
+  </div>
 
 </div>
-
----
-
-## Explore
-
-- [About Me]({{ '/about/' | relative_url }})
-- [Projects]({{ '/projects/' | relative_url }})
-- [Resume]({{ '/resume/' | relative_url }})
