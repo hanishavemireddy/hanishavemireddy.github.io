@@ -12,3 +12,17 @@ header_pages:
   - about.md
   - projects.md
   - resume.md
+
+navbar_entries:
+  - title: about
+    url: about
+  - title: projects
+    url: projects
+  - title: resume
+    url: resume
+  - title: contact
+    url: contact
+
+home:
+  title: Hanisha
+  description: Data Scientist | Statistics | Machine Learning | Decision Science
