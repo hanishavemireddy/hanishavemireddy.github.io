@@ -8,22 +8,21 @@ remote_theme: abhinavs/moonwalk
 plugins:
   - jekyll-remote-theme
 
-<!--
-header_pages:
-  - about.md
-  - projects.md
-  - resume.md
-  -->
+
+# header_pages:
+#  - about.md
+#  - projects.md
+#  - resume.md
 
 navbar_entries:
   - title: about
-    url: about
+    url: /about
   - title: projects
-    url: projects
+    url: /projects
   - title: resume
-    url: resume
+    url: /resume
   - title: contact
-    url: contact
+    url: /contact
 
 home:
   title: Hanisha
