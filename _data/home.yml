@@ -1,10 +1,10 @@
 navbar_entries:
   - title: about
-    url: about
+    url: /about
   - title: projects
-    url: projects
+    url: /projects
   - title: resume
-    url: resume
+    url: /resume
 
 home:
   title: Hanisha
