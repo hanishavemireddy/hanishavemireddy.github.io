@@ -14,15 +14,20 @@ plugins:
 #  - projects.md
 #  - resume.md
 
-navbar_entries:
-  - title: about
-    url: /about
-  - title: projects
-    url: /projects
-  - title: resume
-    url: /resume
-  - title: contact
-    url: /contact
+theme_config:
+  show_navbar: true
+  show_footer: false
+  show_copyright: false
+  
+# navbar_entries:
+#   - title: about
+#     url: /about
+#   - title: projects
+#     url: /projects
+#   - title: resume
+#     url: /resume
+#   - title: contact
+#     url: /contact
 
 home:
   title: Hanisha
