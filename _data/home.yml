@@ -17,14 +17,14 @@
 #     link: https://www.linkedin.com/in/hanisha-vemireddy/
 
 navbar_entries:
-  - title: about
+  - title: About
     url: /about
-  - title: projects
+  - title: Projects
     url: /projects
-  - title: resume
+  - title: Resume
     url: /resume
-  - title: contact
-    url: /contact
+  # - title: contact
+  #   url: /contact
 
 footer_entries: []
 project_entries: []
