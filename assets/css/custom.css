@@ -2,17 +2,18 @@ body {
   background-color: #121212;
 }
 
+
 .page-shell {
   max-width: 920px;
   margin: 0 auto;
-  padding: 2rem 24px 3rem;
+  padding: 1rem 16px 1.5rem;
 }
 
 .page-card {
   background: #fbfbfc;
   border: 1px solid #e5e7eb;
   border-radius: 20px;
-  padding: 2.25rem;
+  padding: 1.5rem 1.75rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
 }
 
