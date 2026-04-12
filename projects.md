@@ -1,4 +1,3 @@
-```md id="h3zv8n"
 ---
 layout: page-custom
 title: Projects
