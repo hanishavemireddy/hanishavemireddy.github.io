@@ -1,7 +1,8 @@
 ---
-layout: page-custom
 title: Projects
 permalink: /projects/
+layout: single
+author_profile: true
 ---
 
 I use this space to showcase the different ways I work with data, from solving real-world business problems to building technical skills through hands-on coding and research.

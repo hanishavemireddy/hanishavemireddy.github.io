@@ -1,14 +1,34 @@
 title: Hanisha Vemireddy
 description: Data Scientist | Statistics | Machine Learning | Decision Science
-baseurl: ""
 url: "https://hanishavemireddy.github.io"
+baseurl: ""
 
-remote_theme: abhinavs/moonwalk
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-include-cache
 
-theme_config:
-  show_navbar: true
-  show_footer: false
-  show_copyright: false
+minimal_mistakes_skin: default
+
+author:
+  name: Hanisha Vemireddy
+  avatar: "/assets/images/photo.jpg"
+  bio: "Data Scientist | Statistics | Machine Learning | Decision Science"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/hanishavemireddy"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/hanisha-vemireddy/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:hanishavemireddy@gmail.com"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
