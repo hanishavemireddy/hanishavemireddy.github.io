@@ -3,23 +3,22 @@ layout: default
 ---
 
 <div class="home-wrapper">
-
-  <!-- Name + photo row -->
-  <div class="home-header">
-    <div class="home-title-block">
+  <div class="home-hero">
+    <div class="home-hero-content">
       <h1 class="home-name">{{ site.title }}</h1>
       <p class="home-tagline">
         Data Scientist | Statistics | Machine Learning | Decision Science
       </p>
+
+      {{ content }}
     </div>
 
-    <img
-      src="{{ '/assets/files/photo.jpg' | relative_url }}"
-      alt="Hanisha Vemireddy"
-      class="profile-photo"
-    >
+    <div class="home-photo-wrap">
+      <img
+        src="{{ '/assets/files/photo.jpg' | relative_url }}"
+        alt="Hanisha Vemireddy"
+        class="profile-photo"
+      >
+    </div>
   </div>
-
-  {{ content }}
-
 </div>
