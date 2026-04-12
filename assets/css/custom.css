@@ -211,3 +211,80 @@ img.svg {
     border-radius: 14px;
   }
 }
+
+.home-wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 2rem 0 2.5rem;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.home-title-block {
+  flex: 1;
+  min-width: 260px;
+}
+
+.home-name {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.home-tagline {
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+  color: #6b7280;
+}
+
+.profile-photo {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 18px;
+  flex-shrink: 0;
+}
+
+.home-intro {
+  max-width: 700px;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.featured-work {
+  margin-top: 2.5rem;
+}
+
+.featured-item {
+  margin-bottom: 1.5rem;
+}
+
+.featured-item h3 {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 640px) {
+  .home-header {
+    align-items: flex-start;
+  }
+
+  .profile-photo {
+    width: 110px;
+    height: 110px;
+  }
+}
