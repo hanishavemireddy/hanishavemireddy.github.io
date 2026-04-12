@@ -3,7 +3,6 @@
 
 @import "moonwalk";
 
-
 /* =========================================
    BASE SITE STYLING
 ========================================= */
@@ -120,31 +119,30 @@ main {
   padding: 2rem 0 2.5rem;
 }
 
-.home-hero {
+.home-header {
   display: flex;
-  align-items: flex-start;
   justify-content: space-between;
-  gap: 28px;
-  margin-bottom: 2rem;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: nowrap;
+  margin-bottom: 1.5rem;
 }
 
-.home-hero-content {
+.home-title-block {
   flex: 1 1 auto;
   min-width: 0;
-  max-width: 700px;
-  text-align: left;
 }
 
 .home-name {
   margin: 0;
-  font-size: 2.2rem;
+  font-size: clamp(2rem, 4vw, 2.4rem);
   line-height: 1.15;
   text-align: left;
 }
 
 .home-tagline {
   margin-top: 0.35rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   color: #6b7280;
   font-size: 1rem;
   text-align: left;
@@ -160,40 +158,18 @@ main {
 }
 
 .intro-text {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 }
-
-.home-photo-wrap {
-  flex: 0 0 auto;
-  margin-left: auto;
-  align-self: flex-start;
-  text-align: right;
-}
-
-.home-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 32px;
-  flex-wrap: nowrap;
-}
-
-.home-title-block {
-  flex: 1;
-  min-width: 0;
-}
-
 
 .profile-photo {
-  width: clamp(20px, 18vw, 50px);
+  width: clamp(96px, 14vw, 140px);
   height: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center top;
-  border-radius: 10px;
+  border-radius: 12px;
   display: block;
   flex-shrink: 0;
-
 }
 
 /* Social icons */
@@ -202,7 +178,7 @@ main {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   margin-top: 16px;
 }
 
@@ -210,20 +186,14 @@ main {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 13px;
-  height: 13px;
   text-decoration: none;
   line-height: 1;
 }
 
 .social-icons a img {
   display: block;
-  width: 13px;
-  height: 13px;
-  min-width: 13px;
-  min-height: 13px;
-  max-width: 13px;
-  max-height: 13px;
+  width: 16px;
+  height: 16px;
   object-fit: contain;
   border-radius: 0;
 }
@@ -244,6 +214,7 @@ main {
 .featured-item h3 {
   margin-bottom: 0.4rem;
 }
+
 /* =========================================
    ABOUT PAGE
 ========================================= */
@@ -332,47 +303,36 @@ main {
 ========================================= */
 
 @media (max-width: 640px) {
-  .home-hero {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 14px;
-    margin-bottom: 1.6rem;
+  .home-wrapper {
+    padding: 1.5rem 0 2rem;
   }
 
-  .home-photo-wrap {
-    order: -1;
-    margin-left: 0;
-    text-align: left;
+  .home-header {
+    gap: 16px;
+    align-items: center;
   }
 
   .profile-photo {
-    width: 42px;
-    height: 42px;
-    border-radius: 8px;
+    width: 88px;
+    border-radius: 10px;
   }
 
   .home-name {
     font-size: 1.8rem;
   }
 
+  .home-tagline {
+    font-size: 0.95rem;
+  }
+
   .social-icons {
     gap: 10px;
   }
 
-  .social-icons a {
-    width: 13px;
-    height: 13px;
-  }
-
   .social-icons a img {
-    width: 13px;
-    height: 13px;
-    min-width: 13px;
-    min-height: 13px;
-    max-width: 13px;
-    max-height: 13px;
+    width: 15px;
+    height: 15px;
   }
-}
 
   .page-shell {
     padding: 0.2rem 8px 0.8rem;

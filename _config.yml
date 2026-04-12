@@ -8,25 +8,7 @@ remote_theme: abhinavs/moonwalk
 plugins:
   - jekyll-remote-theme
 
-
-# header_pages:
-#  - about.md
-#  - projects.md
-#  - resume.md
-
 theme_config:
   show_navbar: true
   show_footer: false
   show_copyright: false
-  
-# navbar_entries:
-#   - title: about
-#     url: /about
-#   - title: projects
-#     url: /projects
-#   - title: resume
-#     url: /resume
-
-home:
-  title: Hanisha
-  description: Data Scientist | Statistics | Machine Learning | Decision Science
