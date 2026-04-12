@@ -4,23 +4,19 @@ layout: home
 
 <div class="home-wrapper">
 
-  <!-- Name + photo row -->
   <div class="home-header">
     <div class="home-title-block">
       <h1 class="home-name">Hanisha Vemireddy</h1>
-      <p class="home-tagline">
-        Data Scientist | Statistics | Machine Learning | Decision Science
-      </p>
+      <p class="home-tagline">Data Scientist | Statistics | Machine Learning | Decision Science</p>
     </div>
 
-    <img 
-      src="{{ '/assets/files/photo.jpg' | relative_url }}" 
+    <img
+      src="{{ '/assets/files/photo.jpg' | relative_url }}"
       alt="Hanisha Vemireddy"
       class="profile-photo"
     >
   </div>
 
-  <!-- Intro -->
   <div class="home-intro">
     <p class="intro-text">
       I enjoy solving messy real-world problems and turning data into decisions.
@@ -43,7 +39,6 @@ layout: home
     </div>
   </div>
 
-  <!-- Featured Work -->
   <div class="featured-work">
     <h2>Featured Work</h2>
 
