@@ -12,10 +12,10 @@ layout: home-custom
   </p>
 
   <div class="social-icons">
-    <a href="https://github.com/hanishavemireddy" target="_blank">
+    <a href="https://github.com/hanishavemireddy" target="_blank" rel="noopener noreferrer">
       <img src="{{ '/assets/icons/github.svg' | relative_url }}" width="22" alt="GitHub">
     </a>
-    <a href="https://linkedin.com/in/hanisha-vemireddy" target="_blank">
+    <a href="https://linkedin.com/in/hanisha-vemireddy" target="_blank" rel="noopener noreferrer">
       <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}" width="22" alt="LinkedIn">
     </a>
     <a href="mailto:hanishavemireddy@gmail.com">
