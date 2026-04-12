@@ -1,8 +1,7 @@
 ---
 layout: home-custom
----
 
-<div class="home-main">
+intro: |
   <div class="home-intro">
     <p class="intro-text">
       I enjoy solving messy real-world problems and turning data into decisions.
@@ -14,19 +13,18 @@ layout: home-custom
 
     <div class="social-icons">
       <a href="https://github.com/hanishavemireddy" target="_blank" rel="noopener noreferrer">
-        <img src="{{ '/assets/icons/github.svg' | relative_url }}" alt="GitHub">
+        <img src="/assets/icons/github.svg" alt="GitHub">
       </a>
       <a href="https://linkedin.com/in/hanisha-vemireddy" target="_blank" rel="noopener noreferrer">
-        <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}" alt="LinkedIn">
+        <img src="/assets/icons/linkedin.svg" alt="LinkedIn">
       </a>
       <a href="mailto:hanishavemireddy@gmail.com">
-        <img src="{{ '/assets/icons/email.svg' | relative_url }}" alt="Email">
+        <img src="/assets/icons/email.svg" alt="Email">
       </a>
     </div>
   </div>
-</div>
 
-<div class="featured-work">
+featured: |
   <h2>Featured Work</h2>
 
   <div class="featured-item">
@@ -51,6 +49,6 @@ layout: home-custom
   </div>
 
   <p>
-    <a href="{{ '/projects/' | relative_url }}">Explore Full Projects →</a>
+    <a href="/projects/">Explore Full Projects →</a>
   </p>
-</div>
+---
