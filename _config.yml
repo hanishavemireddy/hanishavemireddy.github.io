@@ -19,14 +19,14 @@ theme_config:
   show_footer: false
   show_copyright: false
   
-# navbar_entries:
-#   - title: about
-#     url: /about
-#   - title: projects
-#     url: /projects
-#   - title: resume
-#     url: /resume
-#   - title: contact
+navbar_entries:
+  - title: about
+    url: /about
+  - title: projects
+    url: /projects
+  - title: resume
+    url: /resume
+  - title: contact
 #     url: /contact
 
 home:
