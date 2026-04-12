@@ -1,8 +1,6 @@
 ---
 layout: home-custom
----
-
-<div class="home-intro">
+intro: |
   <p class="intro-text">
     I enjoy solving messy real-world problems and turning data into decisions.
   </p>
@@ -22,9 +20,8 @@ layout: home-custom
       <img src="{{ '/assets/icons/email.svg' | relative_url }}" alt="Email">
     </a>
   </div>
-</div>
 
-<div class="featured-work">
+featured_work: |
   <h2>Featured Work</h2>
 
   <div class="featured-item">
@@ -51,4 +48,4 @@ layout: home-custom
   <p>
     <a href="{{ '/projects/' | relative_url }}">Explore Full Projects →</a>
   </p>
-</div>
+---
