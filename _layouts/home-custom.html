@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="home-wrapper">
-
   <div class="home-hero">
     <div class="home-hero-content">
       <h1 class="home-name">{{ site.title }}</h1>
@@ -11,9 +10,7 @@ layout: default
         Data Scientist | Statistics | Machine Learning | Decision Science
       </p>
 
-      <div class="home-intro-block">
-        {{ page.intro }}
-      </div>
+      {{ content }}
     </div>
 
     <div class="home-photo-wrap">
@@ -24,9 +21,4 @@ layout: default
       >
     </div>
   </div>
-
-  <div class="featured-work">
-    {{ page.featured }}
-  </div>
-
 </div>
