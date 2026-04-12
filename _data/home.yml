@@ -1,10 +1,10 @@
-# navbar_entries:
-#   - title: about
-#     url: /about
-#   - title: projects
-#     url: /projects
-#   - title: resume
-#     url: /resume
+navbar_entries:
+  - title: about
+    url: /about
+  - title: projects
+    url: /projects
+  - title: resume
+    url: /resume
 
 # home:
 #   title: Hanisha
@@ -16,15 +16,15 @@
 #   - name: LinkedIn
 #     link: https://www.linkedin.com/in/hanisha-vemireddy/
 
-navbar_entries:
-  - title: About
-    url: /about
-  - title: Projects
-    url: /projects
-  - title: Resume
-    url: /resume
-  # - title: contact
-  #   url: /contact
+# navbar_entries:
+#   - title: About
+#     url: /about
+#   - title: Projects
+#     url: /projects
+#   - title: Resume
+#     url: /resume
+# - title: contact
+#   url: /contact
 
 footer_entries: []
 project_entries: []
