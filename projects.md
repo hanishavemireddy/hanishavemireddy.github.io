@@ -6,6 +6,8 @@ permalink: /projects/
 
 I use this space to showcase the different ways I work with data, from solving real-world business problems to building technical skills through hands-on coding and research.
 
+*This page is still evolving, and I’m continuing to add details and projects over time*
+
 ---
 
 ## Industry Data Science Work
@@ -13,55 +15,62 @@ I use this space to showcase the different ways I work with data, from solving r
 These projects reflect my experience applying statistics, experimentation, and analytical modeling to improve decision-making in real-world settings.
 
 <div class="project-grid">
-  {% for project in site.data.projects %}
-    <div class="project-card">
-      <h3>{{ project.title }}</h3>
-      <p>{{ project.description }}</p>
 
-      {% if project.tech %}
-        <p class="project-tech">{{ project.tech }}</p>
-      {% endif %}
+  <div class="project-card">
+    <h3>Multi-Metric Experimental Evaluation Framework</h3>
+    <p>
+      Redesigned candidate advancement evaluation by moving beyond single-metric assessments to a multi-factor statistical framework, improving reliability in selection decisions and enabling stronger data-driven recommendations.
+    </p>
+    <p class="project-tech">Statistical Modeling, Experimental Design, R, Python</p>
+  </div>
 
-      <div class="project-links">
-        {% if project.link and project.link != "#" %}
-          <a href="{{ project.link | relative_url }}" class="project-link">View Project</a>
-        {% endif %}
+  <div class="project-card">
+    <h3>Additional Industry Projects Coming Soon</h3>
+    <p>
+      More case studies from my applied data science work in experimentation, analytical modeling, and decision-support systems will be added here as I continue expanding this portfolio.
+    </p>
+  </div>
 
-        {% if project.repo %}
-          <a href="{{ project.repo }}" class="project-link" target="_blank" rel="noopener noreferrer">Repository</a>
-        {% endif %}
-      </div>
-    </div>
-  {% endfor %}
 </div>
 
 ---
 
 ## SQL & Python Learning Projects
 
-I am actively building a GitHub portfolio of learning projects to deepen my hands-on coding skills in SQL, Python, and machine learning. These projects reflect my continued investment in strengthening practical implementation skills alongside my analytical experience.
+These GitHub projects reflect my ongoing hands-on learning in SQL, Python, and applied data analysis, focused on strengthening practical coding depth alongside my analytical experience.
 
 <div class="project-grid">
 
   <div class="project-card">
-    <h3>SQL Data Analysis Projects</h3>
+    <h3>SQL E-Commerce Analysis</h3>
     <p>
-      Exploratory SQL projects focused on joins, window functions, aggregations, and business-style analytical problem solving.
+      Analyzed e-commerce sales data using SQL to uncover customer trends, revenue patterns, and product-level insights through structured business queries.
     </p>
     <p class="project-tech">SQL</p>
     <div class="project-links">
-      <a href="YOUR_GITHUB_SQL_LINK" class="project-link" target="_blank" rel="noopener noreferrer">Repository</a>
+      <a href="https://github.com/hanishavemireddy/sql-ecommerce-analysis" class="project-link" target="_blank" rel="noopener noreferrer">Repository</a>
     </div>
   </div>
 
   <div class="project-card">
-    <h3>Python Predictive Modeling Practice</h3>
+    <h3>Python E-Commerce Analysis</h3>
     <p>
-      Hands-on machine learning projects exploring regression, classification, feature engineering, and model evaluation using public datasets.
+      Built Python-based exploratory analysis workflows to examine sales behavior, customer purchasing patterns, and business KPIs using data visualization and summary statistics.
     </p>
-    <p class="project-tech">Python, Pandas, Scikit-learn</p>
+    <p class="project-tech">Python, Pandas, Matplotlib</p>
     <div class="project-links">
-      <a href="YOUR_GITHUB_PYTHON_LINK" class="project-link" target="_blank" rel="noopener noreferrer">Repository</a>
+      <a href="https://github.com/hanishavemireddy/python-ecommerce-analysis" class="project-link" target="_blank" rel="noopener noreferrer">Repository</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>Statistical Analysis Project</h3>
+    <p>
+      Applied hypothesis testing and statistical analysis techniques to investigate patterns in real-world data, focusing on inference, interpretation, and decision-oriented insights.
+    </p>
+    <p class="project-tech">Python, Statistics</p>
+    <div class="project-links">
+      <a href="https://github.com/hanishavemireddy/project3-stats-analysis" class="project-link" target="_blank" rel="noopener noreferrer">Repository</a>
     </div>
   </div>
 
@@ -75,7 +84,7 @@ My research work focuses on statistical modeling, regression methods, and experi
 
 ### Doctoral Thesis
 
-### Improving Early-Stage Plant Breeding Decisions Through Predictive Modeling
+#### Improving Early-Stage Plant Breeding Decisions Through Predictive Modeling
 Developed statistical frameworks to identify high-value testing environments and predict performance in unobserved locations, improving efficiency in experimental planning.
 
 <a href="https://www.proquest.com/openview/17e34e37039da0b91eb619c5a49d15fe/1?pq-origsite=gscholar&cbl=18750&diss=y" target="_blank">
@@ -105,4 +114,3 @@ Reyhaneh Bijari, Hanisha Vemireddy, Sigurdur Olafsson
 <a href="https://www.cell.com/heliyon/fulltext/S2405-8440(25)01354-4" target="_blank">
 View Publication
 </a>
-```
