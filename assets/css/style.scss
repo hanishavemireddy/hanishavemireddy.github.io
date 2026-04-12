@@ -170,13 +170,30 @@ main {
   text-align: right;
 }
 
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: nowrap;
+}
+
+.home-title-block {
+  flex: 1;
+  min-width: 0;
+}
+
+
 .profile-photo {
-  width: 56px;
-  height: 56px;
+  width: clamp(20px, 18vw, 50px);
+  height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center top;
   border-radius: 10px;
   display: block;
+  flex-shrink: 0;
+
 }
 
 /* Social icons */
