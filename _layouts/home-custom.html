@@ -10,7 +10,9 @@ layout: default
         Data Scientist | Statistics | Machine Learning | Decision Science
       </p>
 
-      {{ content }}
+      <div class="home-intro">
+        {{ page.intro }}
+      </div>
     </div>
 
     <div class="home-photo-wrap">
@@ -20,5 +22,9 @@ layout: default
         class="profile-photo"
       >
     </div>
+  </div>
+
+  <div class="featured-work">
+    {{ page.featured_work }}
   </div>
 </div>
