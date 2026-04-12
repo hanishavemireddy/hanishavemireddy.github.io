@@ -30,14 +30,16 @@ layout: home
     <div style="margin-bottom: 24px;">
       <h3 style="margin-bottom: 6px;">Industry Data Science Impact</h3>
       <p>
-        Designed analytical frameworks at Corteva to improve experimental decision-making, including multi-metric evaluation methods that strengthened recommendation reliability.
+        Designed analytical frameworks at Corteva to improve experimental decision-making, including multi-metric evaluation methods that strengthened recommendation reliability.      
+
       </p>
     </div>
 
     <div style="margin-bottom: 24px;">
-      <h3 style="margin-bottom: 6px;">SQL & Python Learning Portfolio</h3>
+      <h3 style="margin-bottom: 6px;">Expanding Technical Depth Through SQL & Python Learning Projects</h3>
       <p>
-        Building a growing GitHub portfolio of SQL and Python projects focused on data analysis, predictive modeling, and practical machine learning applications.
+      Building a growing GitHub portfolio of hands-on learning projects in SQL and Python to deepen practical skills in data analysis, predictive modeling, and machine learning applications.
+      
       </p>
     </div>
 
