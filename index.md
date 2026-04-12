@@ -23,3 +23,17 @@ layout: home-custom
     </a>
   </div>
 </div>
+
+<div class="featured-work">
+  <h2>Featured Projects</h2>
+
+  <div class="featured-item">
+    <h3>Plant Breeding Optimization Research</h3>
+    <p>Developed statistical models to identify discriminating test locations.</p>
+  </div>
+
+  <div class="featured-item">
+    <h3>Experiment Design Platform at Corteva</h3>
+    <p>Built scalable analytics workflows supporting agricultural R&D decisions.</p>
+  </div>
+</div>
