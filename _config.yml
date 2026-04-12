@@ -26,8 +26,6 @@ navbar_entries:
     url: /projects
   - title: resume
     url: /resume
-  - title: contact
-#     url: /contact
 
 home:
   title: Hanisha
