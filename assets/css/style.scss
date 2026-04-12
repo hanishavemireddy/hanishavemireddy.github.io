@@ -88,7 +88,7 @@ main {
 }
 
 /* =========================================
-   INNER PAGES (ABOUT / PROJECTS / RESUME)
+   INNER PAGES
 ========================================= */
 
 .page-shell {
@@ -135,7 +135,7 @@ main {
 
 .home-name {
   margin: 0;
-  font-size: clamp(2rem, 4vw, 2.4rem);
+  font-size: 2.2rem;
   line-height: 1.15;
   text-align: left;
 }
@@ -162,9 +162,8 @@ main {
 }
 
 .profile-photo {
-  width: clamp(96px, 14vw, 140px);
+  width: 120px;
   height: auto;
-  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center top;
   border-radius: 12px;
@@ -172,7 +171,10 @@ main {
   flex-shrink: 0;
 }
 
-/* Social icons */
+/* =========================================
+   SOCIAL ICONS
+========================================= */
+
 .social-icons {
   display: flex;
   flex-direction: row;
