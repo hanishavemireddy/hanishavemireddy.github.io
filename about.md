@@ -7,7 +7,6 @@ classes: wide
 ---
 
 
-## About
 
 Hi, I’m Hanisha. I’m a Data Scientist with close to nine years of experience across academia and industry, building a career around one thing I’ve always loved: solving problems through data. My interest in this started during my undergraduate years at the Indian Statistical Institute, where I developed a deep appreciation for mathematics and statistics and became fascinated by how abstract theory can explain real-world patterns. Later, during my PhD at Iowa State University, that foundation became much more applied. It was where I first learned how to take theoretical ideas and turn them into practical tools for solving messy, real problems.
 
@@ -21,5 +20,5 @@ What keeps me engaged in this field is the mix of analytical rigor and curiosity
 * 🍜 I love trying new foods, and gimbap and bánh mì are easy favorites
 * 📚 I occasionally read, though it is often just an excuse to spend a quiet afternoon in a café
 * 🥒 Lately, I’ve been really into pickleball
-* 📺 I’ve recently fallen deep into anime and am oddly proud of finishing both Naruto and One Piece
+* 📺 I’ve recently fallen deep into anime and am oddly proud of finishing Naruto and almost finishing One Piece
 * 🥾 I enjoy hiking and exploring new trails whenever I get the chance
