@@ -3,6 +3,7 @@ title: Home
 layout: single
 author_profile: true
 classes: wide
+description: Personal portfolio of Hanisha Vemireddy, Data Scientist specializing in Statistics and Machine Learning
 ---
 
 I enjoy solving messy real-world problems and turning data into decisions.
