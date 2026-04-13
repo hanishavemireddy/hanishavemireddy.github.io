@@ -7,6 +7,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
 
 minimal_mistakes_skin: default
 
