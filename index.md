@@ -2,6 +2,7 @@
 title: Home
 layout: single
 author_profile: true
+classes: wide
 ---
 
 I enjoy solving messy real-world problems and turning data into decisions.
