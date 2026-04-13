@@ -6,27 +6,20 @@ author_profile: true
 classes: wide
 ---
 
-Hi, I’m Hanisha. I’m a Data Scientist with around 9 years of experience across academia and industry, working at the intersection of statistics, machine learning, and real-world decision making.
 
-My work has largely focused on solving problems where data is messy, noisy, and often incomplete. In these settings, the challenge isn’t just building accurate models, but understanding the underlying variability, identifying confounding factors, and ensuring that the insights we generate actually hold up in practice.
+## About
 
-I’ve spent a significant part of my career designing experiments, choosing appropriate metrics, and developing analytical approaches that support reliable and actionable decisions.
+Hi, I’m Hanisha. I’m a Data Scientist with close to nine years of experience across academia and industry, building a career around one thing I’ve always loved: solving problems through data. My interest in this started during my undergraduate years at the Indian Statistical Institute, where I developed a deep appreciation for mathematics and statistics and became fascinated by how abstract theory can explain real-world patterns. Later, during my PhD at Iowa State University, that foundation became much more applied. It was where I first learned how to take theoretical ideas and turn them into practical tools for solving messy, real problems.
 
-I have experience building both statistical and machine learning models, including predictive modeling, time series forecasting, and multivariate analysis for monitoring complex systems. Much of my work has involved translating these models into practical tools, whether that’s identifying early signals of system deviations, improving evaluation frameworks, or helping teams make better tradeoffs under real-world constraints.
+A lot of my professional work has been in AgTech, which means I’ve spent years working with noisy, imperfect, real-world data where clear answers are rarely handed to you. But for me, the domain has never been the main draw. What excites me is the process itself: identifying and defining the right problem, asking the right questions, designing experiments, testing hypotheses, and figuring out what the data is truly saying. I enjoy building statistical and machine learning models, but even more than that, I enjoy translating complex findings into insights that stakeholders can actually use to make decisions with confidence.
 
-One area I care deeply about is moving beyond single-metric thinking. In several projects, I’ve worked on designing multi-metric evaluation frameworks that provide a more complete view of performance and lead to better decision outcomes.
-
-I enjoy working through ambiguity, asking the right questions, and making sure the analysis aligns with the actual decisions being made.
-
-More recently, I’ve been interested in problems around experimentation, causal thinking, and forecasting, especially in domains where data is imperfect and decisions have meaningful impact. I’m particularly drawn to work that sits at the intersection of modeling, measurement, and strategy.
-
----
+What keeps me engaged in this field is the mix of analytical rigor and curiosity it demands. I like untangling ambiguity, understanding why something is happening rather than just predicting that it will, and creating frameworks that help people make smarter choices. Whether the problem is in agriculture, healthcare, product analytics, or any other domain, I’m drawn to work that sits at the intersection of data, reasoning, experimentation, and real impact.
 
 ## Beyond Work
 
-- 🎬 I watch a lot of movies, addicted to Indian (specifically telugu) movies
-- 🍜 I love trying new foods, Gimbap and Banh Mi (👀)  
-- 📚 I occasionally read, mostly as an excuse to sit in a cafe and relax  
-- 🥒 Lately into pickleball  
-- 📺 Recent obsession with Anime, proud to say that I've finished watching Naruto and One Piece
-- 🥾 I enjoy hiking and exploring new trails   
+* 🎬 I watch a lot of movies, and I’m especially attached to Telugu cinema
+* 🍜 I love trying new foods, and gimbap and bánh mì are easy favorites
+* 📚 I occasionally read, though it is often just an excuse to spend a quiet afternoon in a café
+* 🥒 Lately, I’ve been really into pickleball
+* 📺 I’ve recently fallen deep into anime and am oddly proud of finishing both Naruto and One Piece
+* 🥾 I enjoy hiking and exploring new trails whenever I get the chance
