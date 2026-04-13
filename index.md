@@ -6,9 +6,10 @@ classes: wide
 description: Personal portfolio of Hanisha Vemireddy, Data Scientist specializing in Statistics and Machine Learning
 ---
 
-I enjoy solving messy real-world problems and turning data into decisions.
+I enjoy solving complex real-world problems and turning data into clear, actionable decisions. I’m especially drawn to work that involves asking the right questions, testing ideas thoughtfully, and translating insights into meaningful outcomes.
 
-Lately, I’m either watching a new reality TV show, trying to finish another long anime series, playing pickleball, or occasionally reading just for an excuse to sit in a café and relax.
+Outside of work, I enjoy unwinding with a new reality TV show, making my way through long anime series, playing pickleball, or spending a quiet afternoon reading at a café.
+
 
 ## Featured Projects
 
