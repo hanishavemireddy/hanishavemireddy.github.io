@@ -3,6 +3,7 @@ title: About
 permalink: /about/
 layout: single
 author_profile: true
+classes: wide
 ---
 
 Hi, I’m Hanisha. I’m a Data Scientist with around 9 years of experience across academia and industry, working at the intersection of statistics, machine learning, and real-world decision making.
