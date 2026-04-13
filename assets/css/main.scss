@@ -86,3 +86,91 @@
 .author__urls {
   font-size: 0.95rem;
 }
+
+---
+---
+
+@import "minimal-mistakes";
+
+/* ==============================
+   DESKTOP LARGE SCREENS
+============================== */
+@media (min-width: 80em) {
+  .sidebar {
+    width: 35% !important;
+    max-width: 380px !important;
+    min-width: 280px !important;
+    opacity: 1 !important;
+  }
+
+  .page {
+    width: 65% !important;
+    max-width: none !important;
+    float: right !important;
+    padding-right: 2rem !important;
+  }
+
+  .page__inner-wrap {
+    max-width: 760px !important;
+  }
+
+  .author__avatar img {
+    max-width: 220px !important;
+  }
+
+  .author__name {
+    font-size: 1.4rem !important;
+  }
+
+  .author__bio {
+    font-size: 1.05rem !important;
+    line-height: 1.6;
+  }
+
+  .author__urls {
+    font-size: 1rem !important;
+  }
+}
+
+/* ==============================
+   MEDIUM SCREENS / LAPTOPS
+============================== */
+@media (min-width: 64em) and (max-width: 79.99em) {
+  .sidebar {
+    width: 32% !important;
+    max-width: 320px !important;
+    min-width: 240px !important;
+    opacity: 1 !important;
+  }
+
+  .page {
+    width: 68% !important;
+    float: right !important;
+    padding-right: 1.5rem !important;
+  }
+
+  .author__avatar img {
+    max-width: 190px !important;
+  }
+
+  .author__name {
+    font-size: 1.25rem !important;
+  }
+
+  .author__bio {
+    font-size: 0.98rem !important;
+  }
+
+  .author__urls {
+    font-size: 0.95rem !important;
+  }
+}
+
+/* ==============================
+   MOBILE — KEEP DEFAULT STACKING
+============================== */
+.author__avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
