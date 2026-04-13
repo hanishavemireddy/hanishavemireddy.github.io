@@ -1,0 +1,18 @@
+/* Sidebar wider */
+.sidebar {
+  width: 320px;
+}
+
+/* Main content narrower */
+.page {
+  width: calc(100% - 340px);
+  max-width: 760px;
+}
+
+/* Profile image slightly larger */
+.author__avatar img {
+  max-width: 190px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
