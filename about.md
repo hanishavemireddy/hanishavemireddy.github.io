@@ -3,16 +3,24 @@ title: About
 permalink: /about/
 layout: single
 author_profile: true
-classes: wide
+classes: narrow
 ---
 
+Hi, I’m Hanisha, a data scientist who enjoys turning messy real-world problems into clear decisions.
 
+I like working at the intersection of statistics, machine learning, and experimentation. What excites me most is identifying the right problem to solve, testing different hypotheses, and making sense of complex results in a way that helps people make better decisions.
 
-Hi, I’m Hanisha. I’m a Data Scientist with close to nine years of experience across academia and industry, building a career around one thing I’ve always loved: solving problems through data. My interest in this started during my undergraduate years at the Indian Statistical Institute, where I developed a deep appreciation for mathematics and statistics and became fascinated by how abstract theory can explain real-world patterns. Later, during my PhD at Iowa State University, that foundation became much more applied. It was where I first learned how to take theoretical ideas and turn them into practical tools for solving messy, real problems.
+My journey started at the Indian Statistical Institute, where I built a strong foundation in mathematics and statistics and first realized how much I enjoyed analytical problem-solving. During my PhD at Iowa State University, I learned how to take theoretical ideas and apply them to practical, real-world challenges.
 
-A lot of my professional work has been in AgTech, which means I’ve spent years working with noisy, imperfect, real-world data where clear answers are rarely handed to you. But for me, the domain has never been the main draw. What excites me is the process itself: identifying and defining the right problem, asking the right questions, designing experiments, testing hypotheses, and figuring out what the data is truly saying. I enjoy building statistical and machine learning models, but even more than that, I enjoy translating complex findings into insights that stakeholders can actually use to make decisions with confidence.
+A lot of my experience has been in AgTech, but what keeps me motivated has never been the domain alone. I simply enjoy solving meaningful data problems, whether that means designing experiments, understanding patterns in noisy data, or helping teams make smarter choices based on evidence.
 
-What keeps me engaged in this field is the mix of analytical rigor and curiosity it demands. I like untangling ambiguity, understanding why something is happening rather than just predicting that it will, and creating frameworks that help people make smarter choices. Whether the problem is in agriculture, healthcare, product analytics, or any other domain, I’m drawn to work that sits at the intersection of data, reasoning, experimentation, and real impact.
+### What I Enjoy Doing Most
+
+- Designing experiments and statistical analyses  
+- Building predictive and decision-support models  
+- Working with noisy, real-world datasets  
+- Testing hypotheses and evaluating outcomes  
+- Explaining technical findings in a way that makes sense to different audiences  
 
 ## Beyond Work
 
