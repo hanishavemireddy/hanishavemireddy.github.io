@@ -3,6 +3,14 @@
   width: 320px;
 }
 
+.author__name {
+  font-size: 1.3rem;
+}
+
+.author__bio {
+  font-size: 1rem;
+}
+
 /* Main content narrower */
 .page {
   width: calc(100% - 340px);
