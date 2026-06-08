@@ -42,6 +42,21 @@ These projects reflect my experience applying statistics, experimentation, and a
 These GitHub projects reflect my ongoing hands-on learning in SQL, Python, and applied data analysis, focused on strengthening practical coding depth alongside my analytical experience.
 
 <div class="project-grid">
+  
+  
+  <div class="project-card">
+    <h3> Air Quality Forecasting Project</h3>
+    <p>
+      A full-stack data science project that pulls live air quality data from the internet, cleans it through an automated pipeline, stores it in a database, forecasts using multiple time series predictive models, and present sthrough a Plotly Dash dashboard.
+    </p>
+    <p class="project-tech">Python, SQLite Database, Docker (pending), Dashboard (pending) </p>
+    <div class="project-links">
+      <a href="https://github.com/hanishavemireddy/air-quality-forecasting" class="project-link" target="_blank" rel="noopener noreferrer">Repository</a>
+    </div>
+  </div>
+
+</div>
+
 
   <div class="project-card">
     <h3>SQL E-Commerce Analysis</h3>
