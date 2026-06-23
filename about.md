@@ -6,21 +6,23 @@ author_profile: true
 classes: narrow
 ---
 
-Hi, I’m Hanisha, a data scientist who enjoys turning messy real-world problems into clear decisions.
+Hi, I’m Hanisha, a data scientist (Sr) who enjoys translating complex data challenges into clear, evidence-based decisions
 
-I like working at the intersection of statistics, machine learning, and experimentation. What excites me most is identifying the right problem to solve, testing different hypotheses, and making sense of complex results in a way that helps people make better decisions.
-
-My journey started at the Indian Statistical Institute, where I built a strong foundation in mathematics and statistics and first realized how much I enjoyed analytical problem-solving. During my PhD at Iowa State University, I learned how to take theoretical ideas and apply them to practical, real-world challenges.
+I like working at the intersection of statistics, machine learning, and experimentation. What excites me most is identifying the right problem to solve, testing different hypotheses, and making sense of complex results in a way that helps people make better decisions. While I love the rigor of hypothesis testing and statistical analyses, I also enjoy leveraging ML to solve practical data challenges... whether that’s utilizing traditional ML algorithms for predictive modeling, engineering features from noisy data, or building advanced statistical imputation frameworks for incomplete datasets. I genuinely enjoy the entire analytical process, from the grit of data cleaning to the final strategic insight.
 
 A lot of my experience has been in AgTech, but what keeps me motivated has never been the domain alone. I simply enjoy solving meaningful data problems, whether that means designing experiments, understanding patterns in noisy data, or helping teams make smarter choices based on evidence.
 
-### What I Enjoy Doing Most
+### Core Expertise
 
-- Designing experiments and statistical analyses  
-- Building predictive and decision-support models  
-- Working with noisy, real-world datasets  
-- Testing hypotheses and evaluating outcomes  
-- Explaining technical findings in a way that makes sense to different audiences  
+- Methodologies: Experimental Design, Hypothesis Testing, Causal Inference, Statistical Modeling, Anomaly Detection
+- Machine Learning: Predictive Modeling, Feature Engineering, Advanced Data Imputation, Traditional ML Frameworks.
+- Tooling: Python, R, SQL, JMP
+- Domains: Deep roots in AgTech, but domain-agnostic at heart. I excel wherever complex data needs framework-driven clarity.
+
+### The Foundation
+
+- PhD in Industrial Engineering | Iowa State University - Focused on translating complex theoretical ideas into scalable, real-world applications.
+- B. Math & MS QMS | Indian Statistical Institute - Built a rigorous foundation in mathematical statistics, probability theory, and the fundamentals of quality management.
 
 ## Beyond Work
 
@@ -28,5 +30,5 @@ A lot of my experience has been in AgTech, but what keeps me motivated has never
 * 🍜 I love trying new foods, and gimbap and bánh mì are easy favorites
 * 📚 I occasionally read, though it is often just an excuse to spend a quiet afternoon in a café
 * 🥒 Lately, I’ve been really into pickleball
-* 📺 I’ve recently fallen deep into anime and am oddly proud of finishing Naruto and almost finishing One Piece
+* 📺 I’ve recently fallen deep into anime and am oddly proud of finishing Naruto and One Piece
 * 🥾 I enjoy hiking and exploring new trails whenever I get the chance
