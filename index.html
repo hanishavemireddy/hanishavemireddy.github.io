@@ -112,7 +112,7 @@
     /* ── Hero ── */
     .hero {
       display: grid;
-      grid-template-columns: 1fr auto;
+      grid-template-columns: auto 1fr;
       gap: 40px;
       align-items: start;
       padding: 56px 0 48px;
@@ -182,8 +182,8 @@
     .avatar img { width: 100%; height: 100%; object-fit: cover; }
 
     .avatar-fallback {
-      width: 96px;
-      height: 96px;
+      width: 140px;
+      height: 140px;
       border-radius: 50%;
       border: 0.5px solid var(--border);
       background: var(--surface);
@@ -318,12 +318,9 @@
         grid-template-columns: 1fr;
         gap: 28px;
       }
-      .hero > .avatar-fallback,
-      .hero > .avatar {
-        order: -1;
-        width: 72px;
-        height: 72px;
-        font-size: 22px;
+      .hero > .avatar-fallback {
+        width: 88px;
+        height: 88px;
       }
       .hero-title { font-size: 32px; }
       .projects-grid { grid-template-columns: 1fr; }
@@ -349,6 +346,7 @@
 
       <!-- Hero -->
       <section class="hero">
+        <img class="avatar-fallback" src="assets/images/photo.jpg" alt="Hanisha Vemireddy" />
         <div>
           <h1 class="hero-title">
             Data scientist.<br>
@@ -379,7 +377,6 @@
             </a>
           </div>
         </div>
-        <img class="avatar-fallback" src="assets/images/photo.jpg" alt="Hanisha Vemireddy" />
       </section>
 
       <!-- Projects -->

@@ -75,7 +75,7 @@
 
     .hero {
       display: grid;
-      grid-template-columns: 1fr auto;
+      grid-template-columns: auto 1fr;
       gap: 40px;
       align-items: start;
       padding: 56px 0 48px;
@@ -89,7 +89,7 @@
     .hero-title em { font-style: italic; }
     .hero-sub { font-size: 15px; color: var(--text-secondary); line-height: 1.65; max-width: 480px; }
     .avatar-fallback {
-      width: 96px; height: 96px; border-radius: 50%;
+      width: 140px; height: 140px; border-radius: 50%;
       border: 0.5px solid var(--border); background: var(--surface);
       flex-shrink: 0; object-fit: cover; display: block;
     }
@@ -156,7 +156,7 @@
 
     @media (max-width: 600px) {
       .hero { grid-template-columns: 1fr; gap: 24px; }
-      .hero > .avatar-fallback { order: -1; width: 72px; height: 72px; }
+      .hero > .avatar-fallback { width: 88px; height: 88px; }
       .hero-title { font-size: 32px; }
       .edu-grid { grid-template-columns: 1fr; }
     }
@@ -179,6 +179,7 @@
     <div class="container">
 
       <section class="hero">
+        <img class="avatar-fallback" src="assets/images/photo.jpg" alt="Hanisha Vemireddy" />
         <div>
           <h1 class="hero-title">Hi, I'm Hanisha.<br><em>I make data make sense.</em></h1>
           <p class="hero-sub">
@@ -187,7 +188,6 @@
             into decisions people can actually act on.
           </p>
         </div>
-        <img class="avatar-fallback" src="assets/images/photo.jpg" alt="Hanisha Vemireddy" />
       </section>
 
       <!-- Expertise -->
