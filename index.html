@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hanisha Vemireddy — Data Scientist</title>
+  <meta name="description" content="Personal portfolio of Hanisha Vemireddy, Data Scientist specializing in Statistics, Experimentation, and Machine Learning." />
+  <meta name="author" content="Hanisha Vemireddy" />
+  <meta property="og:title" content="Hanisha Vemireddy" />
+  <meta property="og:description" content="Data scientist. Rigorous by training, curious by nature." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #fafaf9;
+      --surface: #f3f2f0;
+      --surface-2: #ffffff;
+      --border: #e4e2dc;
+      --border-strong: #ccc9c1;
+      --text-primary: #1a1a18;
+      --text-secondary: #5a5950;
+      --text-muted: #9a978d;
+      --accent: #185fa5;
+      --accent-bg: #e6f1fb;
+      --accent-border: #b5d4f4;
+      --success: #0f6e56;
+      --success-bg: #e1f5ee;
+      --radius: 8px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #151513;
+        --surface: #1f1f1c;
+        --surface-2: #282825;
+        --border: #2e2e2a;
+        --border-strong: #3e3e39;
+        --text-primary: #f0ede6;
+        --text-secondary: #9a978d;
+        --text-muted: #5a5950;
+        --accent: #85b7eb;
+        --accent-bg: #0c2340;
+        --accent-border: #185fa5;
+        --success: #5dcaa5;
+        --success-bg: #04342c;
+      }
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text-primary);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Layout ── */
+    .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+
+    /* ── Nav ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg);
+      border-bottom: 0.5px solid var(--border);
+      padding: 16px 0;
+    }
+
+    nav .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-name {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 14px;
+      color: var(--text-secondary);
+      transition: color 0.15s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--text-primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 40px;
+      align-items: start;
+      padding: 56px 0 48px;
+      border-bottom: 0.5px solid var(--border);
+    }
+
+    .hero-title {
+      font-family: 'DM Serif Display', Georgia, serif;
+      font-size: 44px;
+      font-weight: 400;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+      color: var(--text-primary);
+    }
+
+    .hero-title em { font-style: italic; }
+
+    .hero-sub {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.65;
+      max-width: 440px;
+      margin-bottom: 20px;
+    }
+
+    .pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .pill {
+      font-size: 12px;
+      padding: 4px 11px;
+      border-radius: 100px;
+      border: 0.5px solid var(--border-strong);
+      color: var(--text-secondary);
+    }
+
+    .hero-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .hero-links a {
+      font-size: 14px;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .hero-links a:hover { text-decoration: underline; }
+
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      border: 0.5px solid var(--border);
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+    .avatar-fallback {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      border: 0.5px solid var(--border);
+      background: var(--surface);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'DM Serif Display', Georgia, serif;
+      font-size: 28px;
+      color: var(--text-secondary);
+      flex-shrink: 0;
+    }
+
+    /* ── Sections ── */
+    .section { padding: 44px 0; }
+    .section + .section { border-top: 0.5px solid var(--border); }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .section-note {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    /* ── Project cards ── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 12px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 0.5px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      transition: border-color 0.15s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover { border-color: var(--border-strong); }
+
+    .card.featured {
+      border-color: var(--accent-border);
+      background: var(--accent-bg);
+    }
+
+    .card-type {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .card-type.industry { color: var(--accent); }
+    .card-type.research { color: var(--success); }
+
+    .card-title {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.45;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+    }
+
+    .card-desc {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      margin-bottom: 14px;
+      flex: 1;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .tag {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: var(--radius);
+      background: var(--surface-2);
+      border: 0.5px solid var(--border);
+      color: var(--text-muted);
+    }
+
+    .card-link {
+      font-size: 13px;
+      color: var(--accent);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: 12px;
+    }
+
+    .card-link:hover { text-decoration: underline; }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 0.5px solid var(--border);
+      padding: 28px 0;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* ── Icons (inline svg) ── */
+    .icon {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      vertical-align: middle;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      .hero {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+      .hero > .avatar-fallback,
+      .hero > .avatar {
+        order: -1;
+        width: 72px;
+        height: 72px;
+        font-size: 22px;
+      }
+      .hero-title { font-size: 32px; }
+      .projects-grid { grid-template-columns: 1fr; }
+      .nav-links { gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <span class="nav-name">Hanisha Vemireddy</span>
+      <ul class="nav-links">
+        <li><a href="#projects" class="active">Projects</a></li>
+        <li><a href="https://hanishavemireddy.github.io/about/">About</a></li>
+        <li><a href="https://hanishavemireddy.github.io/resume/">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <!-- Hero -->
+      <section class="hero">
+        <div>
+          <h1 class="hero-title">
+            Data scientist.<br>
+            <em>Rigorous by training,<br>curious by nature.</em>
+          </h1>
+          <p class="hero-sub">
+            I work at the intersection of statistics, experimentation, and decision-making —
+            turning messy data into clear, reliable insights.
+          </p>
+          <div class="pills">
+            <span class="pill">Statistics</span>
+            <span class="pill">Machine learning</span>
+            <span class="pill">Experimental design</span>
+            <span class="pill">Python · R · SQL</span>
+          </div>
+          <div class="hero-links">
+            <a href="https://github.com/hanishavemireddy" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/hanisha-vemireddy/" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:hanishavemireddy@gmail.com">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+        <div class="avatar-fallback" aria-label="Hanisha Vemireddy">HV</div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <div class="section-label">Projects</div>
+        <p class="section-note">Actively building — more projects added regularly.</p>
+
+        <div class="projects-grid">
+
+          <div class="card featured">
+            <div class="card-type industry">Industry</div>
+            <div class="card-title">Multi-metric experimental evaluation framework</div>
+            <div class="card-desc">Redesigned candidate evaluation at Corteva using a multi-factor statistical framework, improving recommendation reliability across experiments.</div>
+            <div class="card-tags">
+              <span class="tag">Statistical modeling</span>
+              <span class="tag">Experimental design</span>
+              <span class="tag">R</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-type">Learning project</div>
+            <div class="card-title">Air quality forecasting</div>
+            <div class="card-desc">End-to-end pipeline: live data ingestion, automated cleaning, time series forecasting models, and a Plotly Dash dashboard.</div>
+            <div class="card-tags">
+              <span class="tag">Python</span>
+              <span class="tag">SQLite</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Plotly Dash</span>
+            </div>
+            <a class="card-link" href="https://github.com/hanishavemireddy/air-quality-forecasting" target="_blank" rel="noopener">
+              <svg class="icon" style="width:13px;height:13px;" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View repo
+            </a>
+          </div>
+
+          <div class="card">
+            <div class="card-type">Learning project</div>
+            <div class="card-title">E-commerce analysis — SQL & Python</div>
+            <div class="card-desc">Customer trends, revenue patterns, and product insights explored in two parallel implementations — one in SQL, one in Python.</div>
+            <div class="card-tags">
+              <span class="tag">SQL</span>
+              <span class="tag">Python</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Matplotlib</span>
+            </div>
+            <div style="display:flex;gap:12px;">
+              <a class="card-link" href="https://github.com/hanishavemireddy/sql-ecommerce-analysis" target="_blank" rel="noopener">
+                <svg class="icon" style="width:13px;height:13px;" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                SQL repo
+              </a>
+              <a class="card-link" href="https://github.com/hanishavemireddy/python-ecommerce-analysis" target="_blank" rel="noopener">
+                <svg class="icon" style="width:13px;height:13px;" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                Python repo
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-type">Learning project</div>
+            <div class="card-title">Statistical analysis</div>
+            <div class="card-desc">Hypothesis testing and inference techniques applied to real-world data, focused on decision-oriented insights and clear interpretation.</div>
+            <div class="card-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Statistics</span>
+              <span class="tag">Hypothesis testing</span>
+            </div>
+            <a class="card-link" href="https://github.com/hanishavemireddy/project3-stats-analysis" target="_blank" rel="noopener">
+              <svg class="icon" style="width:13px;height:13px;" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View repo
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Research -->
+      <section class="section" id="research">
+        <div class="section-label">Research & publications</div>
+
+        <div class="projects-grid">
+
+          <div class="card">
+            <div class="card-type research">PhD thesis</div>
+            <div class="card-title">Improving early-stage plant breeding decisions through predictive modeling</div>
+            <div class="card-desc">Statistical frameworks to identify high-value testing environments and predict performance in unobserved locations, improving experimental planning efficiency.</div>
+            <a class="card-link" href="https://www.proquest.com/openview/17e34e37039da0b91eb619c5a49d15fe/1?pq-origsite=gscholar&cbl=18750&diss=y" target="_blank" rel="noopener">
+              <svg class="icon" style="width:13px;height:13px;" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View thesis
+            </a>
+          </div>
+
+          <div class="card">
+            <div class="card-type research">Crop Science · 2023</div>
+            <div class="card-title">A regression approach to identify discriminating locations</div>
+            <div class="card-desc">Regression-based methodology to find the most informative agricultural test locations, improving resource allocation in breeding experiments.</div>
+            <a class="card-link" href="https://acsess.onlinelibrary.wiley.com/doi/full/10.1002/csc2.20873" target="_blank" rel="noopener">
+              <svg class="icon" style="width:13px;height:13px;" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View paper
+            </a>
+          </div>
+
+          <div class="card">
+            <div class="card-type research">Heliyon · 2025</div>
+            <div class="card-title">Approximate rank confidence intervals in plant breeding experiments</div>
+            <div class="card-desc">Statistical confidence interval methods to improve ranking reliability in plant breeding comparisons under uncertainty.</div>
+            <a class="card-link" href="https://www.cell.com/heliyon/fulltext/S2405-8440(25)01354-4" target="_blank" rel="noopener">
+              <svg class="icon" style="width:13px;height:13px;" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View paper
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Hanisha Vemireddy
+    </div>
+  </footer>
+
+</body>
+</html>
