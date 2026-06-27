@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Hanisha Vemireddy</title>
+  <meta name="description" content="About Hanisha Vemireddy, Data Scientist specializing in Statistics, Machine Learning, and Experimentation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #fafaf9;
+      --surface: #f3f2f0;
+      --surface-2: #ffffff;
+      --border: #e4e2dc;
+      --border-strong: #ccc9c1;
+      --text-primary: #1a1a18;
+      --text-secondary: #5a5950;
+      --text-muted: #9a978d;
+      --accent: #185fa5;
+      --accent-bg: #e6f1fb;
+      --accent-border: #b5d4f4;
+      --success: #0f6e56;
+      --success-bg: #e1f5ee;
+      --radius: 8px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #151513;
+        --surface: #1f1f1c;
+        --surface-2: #282825;
+        --border: #2e2e2a;
+        --border-strong: #3e3e39;
+        --text-primary: #f0ede6;
+        --text-secondary: #9a978d;
+        --text-muted: #5a5950;
+        --accent: #85b7eb;
+        --accent-bg: #0c2340;
+        --accent-border: #185fa5;
+        --success: #5dcaa5;
+        --success-bg: #04342c;
+      }
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text-primary);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .container { max-width: 900px; margin: 0 auto; padding: 0 24px 0 48px; }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--bg);
+      border-bottom: 0.5px solid var(--border);
+      padding: 16px 0;
+    }
+    nav .container { display: flex; align-items: center; justify-content: space-between; }
+    .nav-name { font-size: 15px; font-weight: 500; color: var(--text-primary); letter-spacing: -0.01em; }
+    .nav-links { display: flex; gap: 28px; list-style: none; }
+    .nav-links a { font-size: 14px; color: var(--text-secondary); transition: color 0.15s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--text-primary); text-decoration: none; font-weight: 500; }
+
+    .hero {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 56px;
+      align-items: center;
+      padding: 64px 0 56px;
+      border-bottom: 0.5px solid var(--border);
+    }
+    .hero-title {
+      font-family: 'DM Serif Display', Georgia, serif;
+      font-size: 48px; font-weight: 400; line-height: 1.12;
+      letter-spacing: -0.02em; margin-bottom: 20px;
+    }
+    .hero-title em { font-style: italic; }
+    .hero-sub { font-size: 15px; color: var(--text-secondary); line-height: 1.65; max-width: 560px; margin-bottom: 24px; }
+    .avatar-fallback {
+      width: 180px; height: 180px; border-radius: 50%;
+      border: 0.5px solid var(--border); background: var(--surface);
+      flex-shrink: 0; object-fit: cover; display: block;
+    }
+
+    .section { padding: 44px 0; }
+    .section + .section { border-top: 0.5px solid var(--border); }
+    .section-label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.09em;
+      text-transform: uppercase; color: var(--text-muted); margin-bottom: 20px;
+    }
+
+    /* Expertise */
+    .expertise-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+    }
+    .expertise-card {
+      background: var(--surface);
+      border: 0.5px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+    }
+    .expertise-card-title {
+      font-size: 13px; font-weight: 500; margin-bottom: 10px; color: var(--text-primary);
+    }
+    .expertise-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+    .expertise-list li { font-size: 13px; color: var(--text-secondary); line-height: 1.45; }
+
+    /* Education */
+    .edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .edu-card {
+      background: var(--surface);
+      border: 0.5px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .edu-degree { font-size: 14px; font-weight: 500; margin-bottom: 4px; }
+    .edu-school { font-size: 13px; color: var(--accent); margin-bottom: 8px; }
+    .edu-detail { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+
+    /* Beyond work */
+    .beyond-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 10px;
+    }
+    .beyond-item {
+      background: var(--surface);
+      border: 0.5px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .beyond-item strong { display: block; font-size: 12px; font-weight: 500; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 5px; }
+
+    footer {
+      border-top: 0.5px solid var(--border);
+      padding: 28px 0; text-align: center;
+      font-size: 13px; color: var(--text-muted);
+    }
+
+    @media (max-width: 600px) {
+      .hero { grid-template-columns: 1fr; gap: 24px; }
+      .hero > .avatar-fallback { width: 88px; height: 88px; }
+      .hero-title { font-size: 32px; }
+      .edu-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <a href="index.html" class="nav-name">Hanisha Vemireddy</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Projects</a></li>
+        <li><a href="about/" class="active">About</a></li>
+        <li><a href="resume/">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <section class="hero">
+        <img class="avatar-fallback" src="assets/images/photo.jpg" alt="Hanisha Vemireddy" />
+        <div>
+          <h1 class="hero-title">Hi, I'm Hanisha.<br><em>I enjoy making sense of data!</em></h1>
+          <p class="hero-sub">
+            Senior data scientist working at the intersection of statistics, machine learning, and experimentation.
+            I enjoy identifying the right problem to solve, testing hypotheses thoughtfully, and translating complex results
+            into decisions people can actually act on.
+          </p>
+        </div>
+      </section>
+
+      <!-- Expertise -->
+      <section class="section">
+        <div class="section-label">Core expertise</div>
+        <div class="expertise-grid">
+
+          <div class="expertise-card">
+            <div class="expertise-card-title">Methods</div>
+            <ul class="expertise-list">
+              <li>Experimental design</li>
+              <li>Hypothesis testing</li>
+              <li>Causal inference</li>
+              <li>Statistical modeling</li>
+              <li>Anomaly detection</li>
+            </ul>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-card-title">Machine learning</div>
+            <ul class="expertise-list">
+              <li>Predictive modeling</li>
+              <li>Feature engineering</li>
+              <li>Advanced data imputation</li>
+              <li>Traditional ML frameworks</li>
+            </ul>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-card-title">Tools</div>
+            <ul class="expertise-list">
+              <li>Python</li>
+              <li>R</li>
+              <li>SQL</li>
+              <li>JMP</li>
+            </ul>
+          </div>
+
+          <div class="expertise-card">
+            <div class="expertise-card-title">Background</div>
+            <ul class="expertise-list">
+              <li>Deep roots in AgTech</li>
+              <li>Domain-agnostic at heart</li>
+              <li>From data cleaning to strategic insight</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="section">
+        <div class="section-label">Education</div>
+        <div class="edu-grid">
+
+          <div class="edu-card">
+            <div class="edu-degree">PhD, Industrial Engineering</div>
+            <div class="edu-school">Iowa State University</div>
+            <div class="edu-detail">Focused on translating complex theoretical ideas into scalable, real-world applications in statistical decision-making.</div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-degree">B.Math & MS, Quality Management</div>
+            <div class="edu-school">Indian Statistical Institute</div>
+            <div class="edu-detail">Built a rigorous foundation in mathematical statistics, probability theory, and quality management systems.</div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Beyond work -->
+      <section class="section">
+        <div class="section-label">Beyond work</div>
+        <div class="beyond-grid">
+          <div class="beyond-item"><strong>Cinema</strong>I watch a lot of movies, especially Telugu cinema</div>
+          <div class="beyond-item"><strong>Food</strong>Always trying something new — gimbap and bánh mì are easy favorites</div>
+          <div class="beyond-item"><strong>Reading</strong>Occasional reader, mostly as an excuse for a quiet café afternoon</div>
+          <div class="beyond-item"><strong>Pickleball</strong>Lately very into it</div>
+          <div class="beyond-item"><strong>Anime</strong>Oddly proud of finishing both Naruto and One Piece</div>
+          <div class="beyond-item"><strong>Hiking</strong>Exploring new trails whenever I get the chance</div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">© 2026 Hanisha Vemireddy</div>
+  </footer>
+
+</body>
+</html>
